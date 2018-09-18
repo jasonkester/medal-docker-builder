@@ -1,6 +1,6 @@
 # Docker image for CI of .NET Core code to Amazon Lambda
 
-FROM microsoft/dotnet:1.1-sdk
+FROM microsoft/dotnet:2.1-sdk
 MAINTAINER Jason Kester
 
 RUN apt-get -y update      

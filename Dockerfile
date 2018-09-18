@@ -1,7 +1,7 @@
 # Docker image for CI of .NET Core code to Amazon Lambda
 
 FROM microsoft/dotnet:1.1-sdk
-MAINTAINER Max Horstmann
+MAINTAINER Jason Kester
 
 RUN apt-get -y update      
 RUN apt-get -y install zip
